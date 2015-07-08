@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'so-social';
+	src:url("./fonts/so-social.eot--y27l9o");
+	src:url("./fonts/so-social.eot--y27l9o") format('embedded-opentype'),
+		url("./fonts/so-social.woff--y27l9o") format('woff'),
+		url("./fonts/so-social.ttf--y27l9o") format('truetype'),
+		url("./fonts/so-social.svg--y27l9o") format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="so-"], [class*=" so-"] {
+	font-family: 'so-social';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.so-facebook:before {
+	content: "\e600";
+}
+.so-google:before {
+	content: "\e601";
+}
+.so-twitter:before {
+	content: "\e602";
+}
+.so-pinterest:before {
+	content: "\e603";
+}
+.so-behance:before {
+	content: "\e604";
+}
+.so-instagram:before {
+	content: "\e605";
+}
+.so-vimeo:before {
+	content: "\e606";
+}
+.so-linkedin:before {
+	content: "\e607";
+}
+.so-viadeo:before {
+	content: "\e608";
+}
+.so-up:before {
+	content: "\e609";
+}
+.so-burger:before {
+	content: "\e60a";
+}
+.so-close:before {
+	content: "\e60b";
+}
